@@ -105,7 +105,7 @@ header{
     text-decoration: underline;
 }
 
-#accedi{
+#accedi, #registrati{
     float: right;
 }
 
@@ -210,5 +210,83 @@ header{
 }
 
 .download{
-    margin: 50px 0;
+    margin: 50px 0 30px 0;
+}
+
+/*  FOOTER */
+
+footer{
+    background-color: #1A1D1F;
+    padding-top: 50px;
+    color: white;
+}
+
+.social{
+    width: 30%;
+    float: left;
+    padding-right: 50px;
+}
+
+.social h2{
+    font-size: 30px;
+    color: #6075CF;
+}
+
+.social h2, .social .lang{
+    margin-bottom: 30px;
+}
+
+.social .lang img{
+    width: 20px;
+    vertical-align: middle;
+}
+
+.social .lang span{
+    font-size: 14px;
+}
+
+#twitter, #instagram, #facebook, #youtube{
+    margin: 0 10px;
+}
+
+#twitter{
+    margin-left: 0;
+}
+
+.utility{
+    width: 70%;
+    float: left;
+    font-size: 16px;
+}
+
+
+.prodotto, .compagnia, .risorse, .norme{
+    float: left;
+    margin-right: 80px;
+}
+
+.utility ul{
+    list-style: none;
+}
+
+.utility ul li{
+    margin-bottom: 20px;
+}
+
+.utility .list-title{
+    color: #6075CF;
+    font-weight: bold;
+}
+
+.linebreak{
+    border: 1px solid #6075CF;
+}
+
+.bottom{
+    padding: 30px 0;
+}
+
+#registrati a{
+    background-color: #6075CF;
+    color: white;
 }
