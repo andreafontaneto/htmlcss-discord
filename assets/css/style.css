@@ -51,6 +51,16 @@ header{
     color:cornflowerblue;
 }
 
+.btn.big2{
+    font-size: 20px;
+    color: white;
+    background-color: #7D8FD8;
+    padding: 15px 30px;
+}
+
+.big2:hover{
+    color: black;
+}
 
 
 /* HEADER */
@@ -126,4 +136,79 @@ header{
 
 .jumbotron .btn:first-of-type{
     margin-right: 20px;
+}
+
+/* MAIN */
+
+.bg-white, .bg-grey{
+    width: 100vw;
+    padding-bottom: 100px;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-grey, .bg-grey-2{
+    background-color: #F4F4F4;
+}
+
+.bg-grey-2{
+    width: 100vw;
+    padding-bottom: 50px;
+}
+
+.discord1, .text-box-1, .discord2, .text-box-2{
+    float:left;
+}
+
+.text-box-1, .text-box-2{
+    width: 40%;
+}
+
+.text-box-1{
+    padding: 30px 0 0 100px;
+}
+
+.text-box-2{
+    padding: 30px 100px 0 0;
+}
+
+.text-box-1 h2, .text-box-2 h2, .text-box-3 h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.text-box-1 p, .text-box-2 p, .text-box-3 p{
+    line-height: 30px;
+}
+
+.text-box-3{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.discord4{
+    width: 100%;
+}
+
+.star{
+    width: 50%;
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.text-box-4, .download{
+    text-align: center;
+}
+
+.text-box-4 h2{
+    font-size: 30px;
+}
+
+.download{
+    margin: 50px 0;
 }
